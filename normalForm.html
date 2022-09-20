@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   
+
+    <script src="/curdOperations.js"></script>
+    
+
+</head>
+<body>
+    <h1>Welcome</h1>
+    <hr/>
+
+    <h2>Bank Details</Det></h2>
+    <hr/>
+
+    <h4>Add Bank Account</h4>
+    <p> Account Number : <input type="text" id="accountNumber"</p>
+    <p> Account Name : <input type="text" id="accountHolderName"</p>
+    <p> Bank Branch : <input type="text" id="branch"</p>
+    <p> Bank Balance : <input type="text" id="amount"</p>
+    <button id="add-account">ADD</button>
+    <ul id = "banks">
+    </ul>
+    <hr/>
+
+    <h4>Get All Bank Account Details</h4>
+    <button id="view-all-account">GET All Account Details</button>
+
+    <ul id = "bankDetails">
+    </ul>
+    <hr/>
+
+
+    <h4>Get Bank Account Detail Based on ID</h4>
+    <p> Account Number : <input type="text" id="getAccountNumber"</p>
+    <button id="view-account">Get Detail</button>
+    <ul id = "bankdetail">
+    </ul>
+    <hr/>
+
+    <h4>Delete Bank Account </h4>
+    <p> Enter Account Number : <input type="text" id="deleteAccountNumber"</p>
+    <button id="delete-account">Delete</button>
+    <hr/>
+
+    <h4>Update Bank Account Name </h4>
+    <p> Enter Account Number : <input type="text" id="updateAccountNumber"</p>
+    <p> Enter New Account Name : <input type="text" id="updateAccountName"</p>
+    <p> Enter New Branch : <input type="text" id="updateBranch"</p>
+    <p> Enter New Balance : <input type="text" id="updateAmount"</p>
+    <button id="update-name">Update</button>
+
+    <ul id = "updateBankAccount">
+    </ul>
+    <hr/>
+
+
+</body>
+</html>
